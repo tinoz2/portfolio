@@ -95,16 +95,33 @@ main .fotoperfil {
   border: 3px solid #c4c1e0;
   margin: 40px;
 }
+@media (max-width: 576px) {
+  main .fotoperfil {
+    width: 30%;
+  }
+}
 main .aboutme {
   display: flex;
   justify-content: center;
   width: 29%;
+}
+@media (max-width: 576px) {
+  main .aboutme {
+    width: 100%;
+  }
 }
 main .aboutmee {
   transform: translateX(55%);
   display: flex;
   justify-content: center;
   width: 40%;
+}
+@media (max-width: 576px) {
+  main .aboutmee {
+    transform: translateX(68%);
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
 }
 main .perfil2 {
   margin: 70px;
@@ -199,6 +216,11 @@ section div h3 {
   height: 4%;
   border-radius: 50%;
 }
+@media (max-width: 576px) {
+  .ss2 .ss {
+    width: 45px;
+  }
+}
 
 .diploma {
   display: flex;
@@ -257,11 +279,6 @@ section div h3 {
   display: inline-block;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   outline: none;
-}
-
-.mas {
-  text-align: center;
-  transform: translateY(200px);
 }
 
 .nn {
@@ -337,6 +354,32 @@ footer .copyright {
 
 span {
   font-weight: 100;
+}
+
+@media (max-width: 576px) {
+  .skills2 {
+    font-size: 30px;
+  }
+  .ff {
+    font-size: 30px;
+  }
+  .h1tino {
+    font-size: 40px;
+  }
+  .diploma {
+    display: block;
+    text-align: center;
+  }
+  .imgdiploma {
+    width: 70%;
+    margin: 60px;
+  }
+  .mas3 {
+    position: relative;
+  }
+  .card {
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

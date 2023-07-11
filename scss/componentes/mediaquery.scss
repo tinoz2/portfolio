@@ -1,0 +1,25 @@
+@media (max-width: 576px){
+    .skills2{
+        font-size: nth($fz, 4);
+    }
+    .ff{
+        font-size: nth($fz, 4);
+    }
+    .h1tino{
+        font-size: nth($fz, 3);
+    }
+    .diploma{
+        display: block;
+        text-align: center;
+    }
+    .imgdiploma{
+        width: 70%;
+        margin: 60px;
+    }
+    .mas3{
+        position: relative;
+    }
+    .card{
+        width: 60%;
+    }
+}

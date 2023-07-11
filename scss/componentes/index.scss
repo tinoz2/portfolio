@@ -20,17 +20,28 @@ main{
         box-shadow: 2px 2px 20px #c4c1e0;
         border: 3px solid #c4c1e0;
         margin: 40px;
+        @media (max-width: 576px){
+            width: 30%;
+        }
     }
     .aboutme{
         display: flex;
         justify-content: center;
         width: 29%;
+        @media (max-width: 576px){
+            width: 100%;
+        }
     }
     .aboutmee{
         transform: translateX(55%);
         display: flex;
         justify-content: center;
         width: 40%;
+        @media (max-width: 576px){
+            transform: translateX(68%);
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
     }
     .perfil2{
         @extend %dflex;

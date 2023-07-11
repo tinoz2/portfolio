@@ -16,5 +16,8 @@ section div h3{
         height: 4%;
         @extend %mar;
         border-radius: 50%;
+        @media (max-width: 576px){
+            width: 45px;
+        }
     }
 }
