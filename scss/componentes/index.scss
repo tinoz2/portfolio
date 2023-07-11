@@ -1,0 +1,102 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+}
+body::-webkit-scrollbar{
+    width: 8px
+}
+body::-webkit-scrollbar-thumb{
+    background: #7c73e6;
+    border-radius: 10px;
+}
+main{
+    .perfil{
+        @extend %dflex;
+    }
+    .fotoperfil{
+        border-radius: 50%;
+        @include wit (10%);
+        box-shadow: 2px 2px 20px #c4c1e0;
+        border: 3px solid #c4c1e0;
+        margin: 40px;
+    }
+    .aboutme{
+        display: flex;
+        justify-content: center;
+        width: 29%;
+    }
+    .aboutmee{
+        transform: translateX(55%);
+        display: flex;
+        justify-content: center;
+        width: 40%;
+    }
+    .perfil2{
+        @extend %dflex;
+        margin: 70px;
+    }
+    .h3am{
+        font-weight: 900;
+        margin-top: 70px;
+        text-align: center;
+        color: nth($clr, 1);
+        font-size: nth($fz, 4);
+        transform: translateX(-10%);
+    }
+    .perfil3{
+        @extend %dflex;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+}
+main div h1{
+    color: black;
+    font-size: nth($fz, 2);
+    @extend %mar2;
+}
+main div img{
+    transition: 0.5s all;
+}
+main div img:hover{
+    filter: brightness(0.6);
+}
+.wave{
+    color: #7c73e6;
+    animation: wave 3s ease-in-out infinite;
+    font-size: nth($fz, 3);
+}
+@keyframes wave {
+    0%, 100% {
+    clip-path: polygon(
+        0% 47%,
+        10% 48%,
+        33% 54%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%);
+    }
+
+    50% {
+    clip-path: polygon(0% 60%,
+    15% 65%,
+    34% 66%,
+    51% 62%,
+    67% 50%,
+    84% 45%,
+    100% 46%,
+    100% 100%,
+    0% 100%);
+    }
+}
+.border{
+    border: none !important;
+    color: #c4c1e0;
+    font-size: nth($fz, 3);
+}
+main div h3{
+    position: absolute;
+}

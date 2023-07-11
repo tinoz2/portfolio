@@ -1,0 +1,65 @@
+.diploma {
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgdiploma {
+  width: 33%;
+  border-radius: 5px;
+}
+
+.btn-15 {
+  background: rgba(196, 193, 224, 0.6) !important;
+  z-index: 1;
+  font-size: 15px;
+}
+
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #7c73e6;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+  color: #ffffff;
+}
+
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.btn-15:active {
+  top: 2px;
+}
+
+.custom-btn {
+  width: 200px;
+  height: 40px;
+  color: #000000;
+  border-radius: 10px;
+  padding: 5px 25px;
+  background: transparent;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.mas {
+  text-align: center;
+  transform: translateY(200px);
+}
+
+/*# sourceMappingURL=certificados.css.map */

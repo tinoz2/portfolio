@@ -1,0 +1,19 @@
+.typemachine{
+    position: relative;
+}
+.typemachine::after{
+    content: "";
+    right: 0;
+    height: 20%;
+    background: #f9f9f9;
+    position: absolute;
+    animation: typemachinea 2s infinite alternate steps(100);
+}
+@keyframes typemachinea{
+    from{
+        @include wit (100%);
+    }
+    to{
+        @include wit (0);
+    }
+}

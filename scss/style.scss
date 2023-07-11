@@ -1,0 +1,13 @@
+@import "./abstract/extend.scss",
+        "./abstract/listas.scss",
+        "./abstract/mixin.scss",
+        "./abstract/variables.scss";
+
+
+@import "./componentes/nav.scss",
+        "./componentes/index.scss",
+        "./componentes/typemachine.scss",
+        "./componentes/skills.scss",
+        "./componentes/certificados.scss",
+        "./componentes/portfolio.scss",
+        "./componentes/footer.scss";

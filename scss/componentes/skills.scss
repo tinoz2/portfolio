@@ -1,0 +1,20 @@
+.section1{
+    background-color: #fff;
+    .skills{
+        @extend %dflex;
+        padding: 60px;
+    }
+}
+section div h3{
+    position: absolute;
+}
+.ss2{
+    @extend %dflex;
+    padding-bottom: 50px;
+    .ss{
+        width: 4%;
+        height: 4%;
+        @extend %mar;
+        border-radius: 50%;
+    }
+}
