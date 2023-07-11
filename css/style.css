@@ -219,7 +219,8 @@ section div h3 {
 }
 @media (max-width: 576px) {
   .ss2 .ss {
-    width: 45px;
+    width: 55px;
+    margin: 15px;
   }
 }
 
