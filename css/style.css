@@ -25,7 +25,7 @@ nav {
   align-items: center;
   padding: 25px 0px 10px 40px;
 }
-@media (max-width: 576px) {
+@media (max-width: 828px) {
   nav {
     display: block;
   }
@@ -406,13 +406,8 @@ span {
   .card {
     width: 60%;
   }
-  .ul2 {
-    display: none;
-  }
-  .nav2 {
+  main .asd11 {
     visibility: visible;
-    text-align: end;
-    margin-top: 20px;
   }
   .btn1 {
     text-decoration: none;
@@ -424,12 +419,6 @@ span {
     border-bottom: 5px solid #c4c1e0;
     border-radius: 50px;
   }
-  nav {
-    flex-direction: column;
-  }
-  main .asd11 {
-    visibility: visible;
-  }
 }
 @media (max-width: 414px) {
   .h1tino {
@@ -439,8 +428,46 @@ span {
     font-size: 20px;
   }
   .btn1 {
-    font-size: 13px;
-    margin: 5px;
+    font-size: 13px !important;
+    margin: 5px !important;
+  }
+}
+@media (max-width: 828px) {
+  .nav2 {
+    visibility: visible;
+    text-align: end;
+    margin-top: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .asdasd {
+    text-align: center;
+  }
+}
+@media (max-width: 828px) and (max-width: 576px) {
+  .asdasd {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@media (max-width: 828px) {
+  .btn1 {
+    text-decoration: none;
+    color: #7c73e6;
+    font-weight: 900;
+    font-size: 17px;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 5px solid #c4c1e0;
+    border-radius: 50px;
+  }
+  .ul2 {
+    display: none;
+  }
+  .card .card-title {
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 
