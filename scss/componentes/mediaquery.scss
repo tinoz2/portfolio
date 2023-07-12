@@ -22,4 +22,25 @@
     .card{
         width: 60%;
     }
+    .ul2{
+        display: none;
+    }
+    .nav2{
+        visibility: visible;
+        text-align: end;
+        margin-top: 20px;
+    }
+    .btn1{
+        text-decoration: none;
+        color: #7c73e6;
+        font-weight: 900;
+        font-size: 17px;
+        margin: 10px;
+        padding: 10px;
+        border-bottom: 5px solid #c4c1e0;
+        border-radius: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
