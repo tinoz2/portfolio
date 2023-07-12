@@ -11,6 +11,9 @@ section div h3{
 .ss2{
     @extend %dflex;
     padding-bottom: 50px;
+    @media (max-width: 414px){
+        flex-wrap: wrap;
+    }
     .ss{
         width: 4%;
         height: 4%;

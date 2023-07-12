@@ -43,4 +43,19 @@
     nav{
         flex-direction: column;
     }
+    main .asd11{
+        visibility: visible;
+    }
+}
+@media (max-width: 414px){
+    .h1tino{
+        font-size: nth($fz, 4);
+    }
+    .card .card-title{
+        font-size: 20px;
+    }
+    .btn1{
+        font-size: 13px;
+        margin: 5px;
+    }
 }

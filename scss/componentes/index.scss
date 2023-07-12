@@ -33,17 +33,6 @@ main{
             width: 100%;
         }
     }
-    .aboutmee{
-        transform: translateX(55%);
-        display: flex;
-        justify-content: center;
-        width: 40%;
-        @media (max-width: 576px){
-            transform: translateX(68%);
-            margin-top: 40px;
-            margin-bottom: 60px;
-        }
-    }
     .perfil2{
         @extend %dflex;
         margin: 70px;
@@ -60,6 +49,9 @@ main{
         @extend %dflex;
         padding-top: 150px;
         padding-bottom: 50px;
+    }
+    .asd11{
+        visibility: hidden;
     }
 }
 main div h1{
@@ -111,4 +103,15 @@ main div img:hover{
 }
 main div h3{
     position: absolute;
+}
+.asdasd{
+    text-align: center;
+    @media (max-width: 576px){
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+h4{
+    font-size: nth($fz, 3);
+    color: #7c73e6;
 }

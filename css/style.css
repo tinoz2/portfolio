@@ -121,19 +121,6 @@ main .aboutme {
     width: 100%;
   }
 }
-main .aboutmee {
-  transform: translateX(55%);
-  display: flex;
-  justify-content: center;
-  width: 40%;
-}
-@media (max-width: 576px) {
-  main .aboutmee {
-    transform: translateX(68%);
-    margin-top: 40px;
-    margin-bottom: 60px;
-  }
-}
 main .perfil2 {
   margin: 70px;
 }
@@ -148,6 +135,9 @@ main .h3am {
 main .perfil3 {
   padding-top: 150px;
   padding-bottom: 50px;
+}
+main .asd11 {
+  visibility: hidden;
 }
 
 main div h1 {
@@ -187,6 +177,21 @@ main div h3 {
   position: absolute;
 }
 
+.asdasd {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .asdasd {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+h4 {
+  font-size: 40px;
+  color: #7c73e6;
+}
+
 .typemachine {
   position: relative;
 }
@@ -221,6 +226,11 @@ section div h3 {
 
 .ss2 {
   padding-bottom: 50px;
+}
+@media (max-width: 414px) {
+  .ss2 {
+    flex-wrap: wrap;
+  }
 }
 .ss2 .ss {
   width: 4%;
@@ -278,7 +288,6 @@ section div h3 {
 }
 
 .custom-btn {
-  width: 200px;
   height: 40px;
   color: #000000;
   border-radius: 10px;
@@ -412,6 +421,21 @@ span {
   }
   nav {
     flex-direction: column;
+  }
+  main .asd11 {
+    visibility: visible;
+  }
+}
+@media (max-width: 414px) {
+  .h1tino {
+    font-size: 30px;
+  }
+  .card .card-title {
+    font-size: 20px;
+  }
+  .btn1 {
+    font-size: 13px;
+    margin: 5px;
   }
 }
 
