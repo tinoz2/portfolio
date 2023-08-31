@@ -20,7 +20,7 @@
         position: relative;
     }
     .card{
-        width: 60%;
+        width: 85%;
     }
     main .asd11{
         visibility: visible;
@@ -34,6 +34,9 @@
         padding: 10px;
         border-bottom: 5px solid #c4c1e0;
         border-radius: 50px;
+    }
+    .papa{
+        display: block;
     }
 }
 @media (max-width: 414px){
