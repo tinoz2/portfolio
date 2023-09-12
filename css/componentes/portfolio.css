@@ -1,18 +1,54 @@
-/* Error: The target selector was not found.
- * Use "@extend %dflex !optional" to avoid this error.
- *   ,
- * 2 |     @extend %dflex;
- *   |     ^^^^^^^^^^^^^^
- *   '
- *   scss\componentes\portfolio.scss 2:5  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: The target selector was not found.\aUse "@extend %dflex !optional" to avoid this error.\a   \2577 \a 2 \2502      @extend %dflex;\d\a   \2502      ^^^^^^^^^^^^^^\a   \2575 \a   scss\\componentes\\portfolio.scss 2:5  root stylesheet';
+.papa {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
+
+.nn {
+  background-color: #f9f9f9;
+}
+
+.card {
+  margin: 4rem;
+  overflow: hidden;
+  position: relative;
+}
+.card .card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #bbb;
+  padding: 30px;
+  text-align: center;
+  margin-top: 40%;
+}
+.card .card-img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  filter: brightness(0.2);
+}
+.card .card-title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.div-usados {
+  margin-top: 2rem;
+}
+
+.mas-usados {
+  border-radius: 50%;
+  width: 20%;
+  height: 15%;
+}
+
+.jsusado {
+  width: 16%;
+}
+
+/*# sourceMappingURL=portfolio.css.map */

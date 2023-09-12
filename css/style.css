@@ -1,4 +1,4 @@
-.papa, .ss2, .section1 .skills, main .perfil3, main .perfil2, main .perfil {
+.ss2, .section1 .skills, main .perfil3, main .perfil2, main .perfil {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,14 +307,17 @@ section div h3 {
   outline: none;
 }
 
+.papa {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .nn {
   background-color: #f9f9f9;
 }
 
 .card {
-  margin: 2rem;
-  width: 25%;
-  height: 25%;
+  margin: 4rem;
   overflow: hidden;
   position: relative;
 }
@@ -330,17 +333,31 @@ section div h3 {
   margin-top: 40%;
 }
 .card .card-img {
-  width: 100%;
-  height: 100%;
+  width: 30rem;
+  height: 30rem;
   object-fit: cover;
   filter: brightness(0.2);
 }
 .card .card-title {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #fff;
   margin-bottom: 50px;
+}
+
+.div-usados {
+  margin-top: 2rem;
+}
+
+.mas-usados {
+  border-radius: 50%;
+  width: 20%;
+  height: 15%;
+}
+
+.jsusado {
+  width: 16%;
 }
 
 footer {
@@ -406,6 +423,7 @@ span {
   }
   .card {
     width: 85%;
+    margin: 2rem;
   }
   main .asd11 {
     visibility: visible;
