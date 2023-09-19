@@ -111,7 +111,7 @@ main .fotoperfil {
   border: 3px solid #c4c1e0;
   margin: 40px;
 }
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
   main .fotoperfil {
     width: 30%;
   }
@@ -121,7 +121,7 @@ main .aboutme {
   justify-content: center;
   width: 29%;
 }
-@media (max-width: 576px) {
+@media (max-width: 1000px) {
   main .aboutme {
     width: 100%;
   }
@@ -439,7 +439,7 @@ span {
     border-radius: 50px;
   }
   .papa {
-    display: block;
+    display: block !important;
   }
 }
 @media (max-width: 414px) {
@@ -454,11 +454,21 @@ span {
     margin: 5px !important;
   }
 }
+@media (max-width: 1300px) {
+  .papa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 828px) {
   .nav2 {
     visibility: visible;
     text-align: end;
     margin-top: 20px;
+  }
+  .papa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   nav {
     flex-direction: column;

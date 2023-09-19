@@ -21,7 +21,7 @@ main{
         box-shadow: 2px 2px 20px #c4c1e0;
         border: 3px solid #c4c1e0;
         margin: 40px;
-        @media (max-width: 576px){
+        @media (max-width: 1000px){
             width: 30%;
         }
     }
@@ -29,7 +29,7 @@ main{
         display: flex;
         justify-content: center;
         width: 29%;
-        @media (max-width: 576px){
+        @media (max-width: 1000px){
             width: 100%;
         }
     }
